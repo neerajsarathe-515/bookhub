@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text ="Neeraj Singh Sarathe"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgProfile" />
+
+    <TextView
+        android:id="@+id/txtProfileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="neerajsarathe90@gmail.com"
+        android:layout_below="@+id/txtProfileName"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtProfilePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9449287593"
+        android:layout_below="@+id/txtProfileEmail"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtProfileAddress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="H-no 11-44, Sumithra Nagar, Opp IDPL Colony, Hyderabad"
+        android:layout_below="@+id/txtProfilePhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center" />
+
+</RelativeLayout>
